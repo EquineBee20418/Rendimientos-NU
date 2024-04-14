@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+h1 {
+    color: #6f42c1; /* Morado de NuBank */
+    margin-top: 10px;
+}
+
+.calculator {
+    margin-bottom: 20px;
+}
+
+.calculator label,
+.calculator input,
+.calculator button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.calculator button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #6f42c1; /* Morado de NuBank */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.resultado {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+.resultado h2 {
+    text-align: center;
+    color: #6f42c1; /* Morado de NuBank */
+    margin-bottom: 10px;
+}
+
+.resultado ul {
+    list-style: none;
+    padding: 0;
+}
+
+.resultado li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.resultado li:last-child {
+    border-bottom: none;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #888;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer img {
+    width: 100px;
+    height: auto;
+}
